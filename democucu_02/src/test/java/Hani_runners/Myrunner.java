@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber .class)
-@CucumberOptions(features="Mydemoddc2",glue="Ddc2_mystepdefinitions",tags= {"@Regression,@Sanity"},
+@CucumberOptions(features="Mydemoddc2",glue="Ddc2_mystepdefinitions",tags= {"@Regression"},
 plugin={"pretty","json:target/cucumber.json","html:target/cucumber-htmlreport.html"})
 
 public class Myrunner {
