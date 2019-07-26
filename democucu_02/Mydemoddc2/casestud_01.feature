@@ -1,7 +1,7 @@
 
 
 Feature: To register with test me application
- 
+@Sanity
    Scenario Outline: Test me registration
     Given User launching the test me application in chrome
     And User clicks on Signup link
